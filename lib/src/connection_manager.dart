@@ -14,8 +14,7 @@ class ConnectionManager {
 
     if (connectionType == ConnectionType.ble) {
       // BLE Scanning
-      final bleDevices = await ble.FlutterBluePlus.startScan(
-          timeout: const Duration(seconds: 4));
+      await ble.FlutterBluePlus.startScan(timeout: const Duration(seconds: 4));
       await Future.delayed(
           Duration(seconds: 4)); // Wait for scanning to complete
       final scanResults = await ble.FlutterBluePlus.scanResults.first;
