@@ -1,11 +1,11 @@
 name: communication_manager
-description: "A new Flutter package project."
-version: 1.0.0
+description: "A Flutter library to manage communication."
+version: 1.0.1
 homepage: "https://github.com/Vikalp-cyber/communication_manager"
 
 environment:
-  sdk: ^3.6.0
-  flutter: ">=1.17.0"
+  sdk: ">=2.17.0 <4.0.0"
+  flutter: ">=1.20.0"
 
 dependencies:
   flutter:
